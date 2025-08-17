@@ -1,0 +1,14 @@
+baseURL = 'https://yuanhes.com/'
+languageCode = 'en-us'
+title = "Yuanhe's Personal Website"
+theme = "PaperMod"
+pagination.pagerSize = 10
+enableRobotsTXT = true
+# RSS
+[outputs]
+home = ["HTML", "RSS"]
+
+# Optional: set language & metadata
+[params]
+  env = "production"
+  # Analytics snippet later (Google Analytics, Plausible, etc.)
