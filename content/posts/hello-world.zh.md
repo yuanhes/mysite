@@ -1,11 +1,11 @@
 ---
 date: 2025-08-17T01:09:38+02:00
 draft: false
-title: Hello World
+title: 你好，世界
 lastmod: 2025-08-17T01:09:38+02:00
 ---
 
-Hi! This is my new blog!
+嗨！这是我的新博客！
 
-Welcome to visit!
+欢迎访问！
 
