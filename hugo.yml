@@ -8,8 +8,8 @@ enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
 hasCJKLanguage: true
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
+#defaultContentLanguage: en
+#defaultContentLanguageInSubdir: false
 
 outputs:
   home:
@@ -26,8 +26,8 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   displayFullLangName: true
-  ShowLastmod: true
   comments: true
+  DateFormat: "2006/01/02"
 #  ShowToc: true
 #  TocOpen: true
 #  ShowLanguageSwitcher: true
@@ -46,13 +46,8 @@ params:
     Title: Welcome to my Bolg!
     Content: Here should be a short intro ... 
   socialIcons: # optional
-    - name: "X"
-      url: "<link>"
     - name: "GitHub"
-      url: "<link2>"
-    - name: "LinkedIn"
-      url: "<link3>"
-  DateFormat: "2006/01/02"
+      url: "https://github.com/yuanhes"
 
 taxonomies:
   category: categories
@@ -104,6 +99,13 @@ menus:
 services:
   disqus:
     shortname: yuanhes
+  googleAnalytics:
+    id: G-GXPSD54DME
+
+privacy:
+  googleAnalytics:
+    disable: false
+    respectDoNotTrack: true
 
 markup:
   goldmark:
