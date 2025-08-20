@@ -49,3 +49,7 @@
 
 - id: search
   translation: "搜索"
+
+- id: last_modified
+  translation: "最后修改于"
+

@@ -31,3 +31,25 @@
 
 - id: code_copied
   translation: "copied!"
+
+- id: posts
+  translation: "Posts"
+
+- id: about
+  translation: "About"
+
+- id: contact
+  translation: "Contact"
+
+- id: categories
+  translation: "Categories"
+
+- id: tags
+  translation: "Tags"
+
+- id: search
+  translation: "Search"
+
+- id: last_modified
+  translation: "Last modified"
+

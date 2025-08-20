@@ -26,6 +26,7 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   displayFullLangName: true
+  ShowLastmod: true
   comments: true
 #  ShowToc: true
 #  TocOpen: true
@@ -41,6 +42,17 @@ params:
     keys: ["title", "permalink", "summary", "content"]
   assets:
     disableHLJS: true
+  homeInfoParams:
+    Title: Welcome to my Bolg!
+    Content: Here should be a short intro ... 
+  socialIcons: # optional
+    - name: "X"
+      url: "<link>"
+    - name: "GitHub"
+      url: "<link2>"
+    - name: "LinkedIn"
+      url: "<link3>"
+  DateFormat: "2006/01/02"
 
 taxonomies:
   category: categories
@@ -53,14 +65,14 @@ module:
     - source: images
       target: static/images
 
-languages:
-  en:
-    languageName: "EN:us:"
-    weight: 1
-  zh:
-    languageName: "中文:cn:"
-    weight: 2
-    title: 元和的个人网站
+#languages:
+#  en:
+#    languageName: ":us:EN"
+#    weight: 1
+#  zh:
+#    languageName: ":cn:中文"
+#    weight: 2
+#    title: 元和的个人网站
 
 menus:
   main:
