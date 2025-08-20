@@ -44,7 +44,7 @@
 
   {{ $date := .Date.Format "02.01.2006" }}
   {{ $lastmod := .Lastmod.Format "02.01.2006" }}
-  {{- if ne .Lastmod .Date -}}
+  {{- if ne $lastmod $date -}}
   <footer class="post-footer" style="font-style:italic;">
     ({{- i18n "last_modified" | default "Last modified" -}}
     : 

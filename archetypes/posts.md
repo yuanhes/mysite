@@ -4,15 +4,12 @@ date: {{ .Date }}
 publishdate: {{ now.Format "2006-01-02" }}
 lastmod: {{ now.Format "2006-01-02" }}
 author: Yuanhe
-# comments: false # display comments
-# showToc: true
-# TocOpen: true
-# description: "" # article description, related to SEO
-# summary: "" # article summary for showing on homepage
+#showToc: true
+#TocOpen: true
+#description: "" # related to SEO
+summary: "" # summary for homepage display
 draft: true
-tags:
-  - default
-categories: 
-  - Life
+tags: ["default"]
+categories: ["Life"] # Life, Tech, Science, Art, Thoughts
 ---
 

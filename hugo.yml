@@ -1,13 +1,17 @@
 #baseURL: https://yuanhes.com/
 languageCode: en-us
-title: Yuanhe's Personal Website
+title: Yuanhe's Blog 
 theme: PaperMod
 pagination:
-  pagerSize: 10
+  pagerSize: 10 # number of posts showing on homepage
+summaryLength: 80
+
+enableInlineShortcodes: true
 enableRobotsTXT: true
 enableGitInfo: true
 enableEmoji: true
 hasCJKLanguage: true
+pygmentsUseClasses: true
 #defaultContentLanguage: en
 #defaultContentLanguageInSubdir: false
 
@@ -26,11 +30,14 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   displayFullLangName: true
+  ShowRssButtonInSectionTermList: true
+  #ShowAllPagesInArchive: true
+  ShowPageNums: true
   comments: true
   DateFormat: "2006/01/02"
-#  ShowToc: true
-#  TocOpen: true
-#  ShowLanguageSwitcher: true
+  #ShowToc: true
+  #TocOpen: true
+  #ShowLanguageSwitcher: true
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -42,6 +49,11 @@ params:
     keys: ["title", "permalink", "summary", "content"]
   assets:
     disableHLJS: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/safari-pinned-tab.svg"
   homeInfoParams:
     Title: Welcome to my Bolg!
     Content: Here should be a short intro ... 
@@ -50,6 +62,10 @@ params:
       url: "https://github.com/yuanhes"
     - name: "Email"
       url: "mailto:justsyh@gmail.com"
+  label:
+    text: "Yuanhe's Blog"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
 
 taxonomies:
   category: categories
@@ -122,5 +138,5 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: true
-    # noClasses: false
-    style: monokai
+    noClasses: false
+    style: monokailight
