@@ -48,6 +48,8 @@ params:
   socialIcons: # optional
     - name: "GitHub"
       url: "https://github.com/yuanhes"
+    - name: "Email"
+      url: "mailto:justsyh@gmail.com"
 
 taxonomies:
   category: categories
@@ -75,9 +77,13 @@ menus:
     #  name: Home
     #  pageRef: /
     #  weight: 10
-    - identifier: posts
-      name: Posts
-      pageRef: /posts
+    #- identifier: posts
+    #  name: Posts
+    #  pageRef: /posts
+    #  weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 20
     - identifier: categories
       name: Categories

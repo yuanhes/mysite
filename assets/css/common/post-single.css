@@ -326,8 +326,8 @@
 .share-buttons,
 .paginav {
     border-radius: var(--radius);
-    background: var(--code-bg);
-    border: 1px solid var(--border);
+    /* background: var(--code-bg); */
+    /* border: 1px solid var(--border); */
 }
 
 .post-tags a {
@@ -347,7 +347,7 @@
 .share-buttons {
     padding: 10px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     overflow-x: auto;
     gap: 10px;
 }
@@ -395,6 +395,7 @@ h6:hover .anchor {
 .paginav .prev,
 .paginav .next {
     width: 50%;
+    border: 1px solid var(--border);
 }
 
 .paginav span:hover:not(.title) {

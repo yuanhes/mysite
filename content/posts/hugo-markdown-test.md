@@ -5,6 +5,8 @@ publishdate: 2025-08-18
 lastmod: 2025-08-18
 author: Yuanhe
 draft: false
+showToc: true
+summary: This post is for testing how to use different content formats with Markdown of Hugo.
 tags:
   - Html
   - Markdown
@@ -105,7 +107,10 @@ Goodbye, World!
 ---
 ---
 
-# Below shows the original markdown code of the article above:
+# Raw Markdown Code
+
+Below shows the raw markdown code of the article above:
+
 ---
 <pre>
 This post is for testing how to use different content formats with Markdown of Hugo.
@@ -199,18 +204,17 @@ Goodbye, World!
 - [Basic Syntax | Markdown Guide](https://www.markdownguide.org/basic-syntax)
 - [Hugo Quick reference - Emojis](https://gohugo.io/quick-reference/emojis/)
 
-
 </pre>
 ---
 Here is the end of the markdown code.
 
 
-# PS: 
-> [How to display raw HTML code on an HTML page - Stack Overflow](https://stackoverflow.com/questions/2820453/how-to-display-raw-html-code-on-an-html-page)
->> 1. Replace the `&` character with `&amp;`
->> 2. Replace the `<` character with `&lt;`
->> 3. Replace the `>` character with `&gt;`
->> 4. Optionally surround your HTML sample with `<pre>` and/or `<code>` tags.
->  
-> (For `<` and `>`, I only repalced the `<` symbols to make them unpaired.)
+# PS: How to display raw code on an HTML page
+Ref: [How to display raw HTML code on an HTML page - Stack Overflow](https://stackoverflow.com/questions/2820453/how-to-display-raw-html-code-on-an-html-page)
+> 1. Replace the `&` character with `&amp;`
+> 2. Replace the `<` character with `&lt;`
+> 3. Replace the `>` character with `&gt;`
+> 4. Optionally surround your HTML sample with `<pre>` and/or `<code>` tags.
+
+For `<` and `>`, I only repalced the `<` symbols to make them unpaired.
 
