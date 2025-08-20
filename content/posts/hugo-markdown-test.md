@@ -7,11 +7,8 @@ author: Yuanhe
 draft: false
 showToc: true
 summary: This post is for testing how to use different content formats with Markdown of Hugo.
-tags:
-  - Html
-  - Markdown
-categories: 
-  - Tech
+tags: ["Hugo", "Markdown", "Html"]
+categories: ["Tech"]
 ---
 This post is for testing how to use different content formats with Markdown of Hugo.
 

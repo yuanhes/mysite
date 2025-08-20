@@ -1,5 +1,5 @@
 ---
-title: Hugo Sample Settings
+title: PaperMod Sample Settings
 date: 2025-08-20T20:24:27+02:00
 publishdate: 2025-08-20
 lastmod: 2025-08-20
@@ -7,13 +7,13 @@ author: Yuanhe
 showToc: true
 TocOpen: true
 #description: "" # related to SEO
-summary: "This post is for getting to know and checking the hugo config and page frontmatter settings." # summary for homepage display
+summary: "Memo for checking the config and page frontmatter settings about the PaperMod theme of Hugo."
 draft: false
-tags: ["Hugo"]
+tags: ["Hugo", "PaperMod"]
 categories: ["Tech"] # Life, Tech, Science, Art, Thoughts
 ---
 
-This post is for getting to know and checking the hugo config and page frontmatter settings, mainly based on the Internet resources [^1] [^2].
+Memo for checking the config and page frontmatter settings about the PaperMod theme of Hugo, mainly based on the Internet resources [^1] [^2].
 
 [^1]: The official doc: [Install / Update PaperMod | PaperMod](https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/).
 [^2]: [hugo-PaperMod/config.yml at exampleSite · adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml)
